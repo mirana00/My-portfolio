@@ -5,12 +5,14 @@
 /* nav styles */
 nav{
     display: flex;
-    
+    justify-content: space-evenly;
+    background-color: #456882;
+    align-items: center;
 }
 .nav-title{
     font-size: 30px;
     font-weight: 800px;
-    margin-left: 150px;
+    /* margin-left: 150px; */
 }
 
 nav div{
@@ -22,12 +24,12 @@ nav div{
 
 .btn{
     background-color: azure;
-    border-radius: 3px;
+    border-radius: 30px;
     border: 1px solid black;
     padding: 12px 16px 12px 16px;
     opacity: 0.8;
     font-size: 13px;
-    font-weight: 600;
+    font-weight: 500;
     cursor: pointer;
 }
 
@@ -35,21 +37,22 @@ nav div{
 /* banner style */
 
 .banner{
-    background-image: url("../assets/Hero-bg.png");
-width: 1440px;
+background-image: url("../assets/Hero-bg.png");
+width: 100%;
 height: 652px;
 background-position: center;
 margin-bottom: 100px;
 }
 
 .banner-content{
-    max-width: 998px;
+    /* max-width: 998px; */
     height: 582px;
    display: flex;
    flex-direction: column;
    align-items: center;
    justify-content: center;
-    margin-left: 200px;
+    /* margin-left: 200px; */
+
 }
 .banner-des{
     
@@ -57,6 +60,7 @@ margin-bottom: 100px;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
+    width:60%;
 }
 
 .h1{
@@ -78,6 +82,7 @@ margin-bottom: 100px;
 .link-1{
     text-decoration: none;
     color: rgb(250, 248, 248);
+    /* scroll-behavior: smooth; */
 }
 
 /* same styles */
@@ -111,23 +116,33 @@ margin-bottom: 100px;
  /* web development style */
   .main{
     
-    align-items: center;
+    /* align-items: center; */
     background-color: rgb(253, 253, 250);
-    margin-right: 100px;
+    /* margin-right: 100px;
     margin-bottom: 100px;
     margin-left: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 100px; */
+    /* display: flex;
+    flex-direction: column;
+    align-content: center; */
   }
 
   .heading{
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin-left: 68px;
-    padding-left: 30px;
-    padding-right: 10px;
+    width: 90%;
+    align-items: center;
+    /* margin-left: 68px; */
+    padding-left: 40px;
   }
 /* box styles */
+.main-box{
+    display: flex;
+    flex-direction: column;
+    align-content: space-evenly;
+    row-gap: 30px;
+}
   .box-content{
     display: flex;
     flex-direction: column;
@@ -145,12 +160,12 @@ margin-bottom: 100px;
   .box-1{
     display: flex;
     flex-direction: row;
-    gap: 300px;
-    margin-left: 68px;
-    margin-top: 50px;
+    align-content: center;
+    column-gap: 300px;
     background-color: rgb(247, 245, 243);
-    padding-bottom: 80px;
+    padding-bottom: 40px;
     padding-left: 30px;
+    border-radius: 30px;
   }
 
   .img{
@@ -217,7 +232,7 @@ overflow: hidden;
 
  .box-style{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin-top: 50px;
     
  }
@@ -270,10 +285,11 @@ overflow: hidden;
     justify-content: center;
     align-items: center;
     border: 1px solid #ccc;
-    padding: 20px;
+    /* padding: 20px; */
     border-radius: 12px;
     margin-top: 60px;
     height: 600px;
+    width: 100%;
     background-image: url("../assets/handshake.jpg");
 }
 
@@ -326,11 +342,13 @@ height: 47px;
 }
 
 .h4{
-    font-size: 26px;
-}
+font-weight: 200;
+    font-size: small;}
 
 .foot-style{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5px 0px 5px 0px ;
 }
